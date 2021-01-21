@@ -13,7 +13,7 @@ code {
 }
 
 .App {
-  background-color: #c68863;
+  background-color: rgb(202, 202, 240);
   max-width: 992px;
   margin: auto;
 }
@@ -23,7 +23,7 @@ nav {
   justify-content: space-between;
   border-bottom: 2px solid blue;
   background-color: #b22222;
-  padding: 10px 20px;
+  padding: 0px 10px;
 }
 
 .logo-link {
@@ -43,7 +43,7 @@ nav {
   color: blue;
   background-color: white;
   border-radius: 5px;
-  padding: 8px 14px;
+  padding: 3px 8px;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
@@ -53,4 +53,65 @@ nav {
   background-color: rgb(186, 185, 240);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.main-content {
+  width: 90%;
+  margin: auto;
+}
+
+.main-content h2 {
+  text-align: center;
+  margin: 5px 5px;
+}
+
+.home-image {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://im.haberturk.com/2019/08/24/2515892_bc495e99b1d19ac359dd436b8249d406_640x640.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-image:hover {
+  background-image: url("https://tr.web.img3.acsta.net/r_640_360/newsv7/20/01/22/10/41/4349203.jpg");
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1 {
+  background-image: url("https://im.haberturk.com/2019/08/24/2515892_bc495e99b1d19ac359dd436b8249d406_640x640.jpg");
+}
+
+.home-thumbnail-2 {
+  background-image: url("https://im.haberturk.com/2019/08/24/2515892_bc495e99b1d19ac359dd436b8249d406_640x640.jpg");
+}
+
+.home-thumbnail-3 {
+  background-image: url("https://im.haberturk.com/2019/08/24/2515892_bc495e99b1d19ac359dd436b8249d406_640x640.jpg");
 }
