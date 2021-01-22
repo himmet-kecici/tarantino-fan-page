@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => (
+const Home = (props) => (
     <div className="main-content">
         <div className="container">
-            <h2>welcome to the tarantino's world</h2>
+            <h2>{props.title}</h2>
             <div className="home-image"></div>
             <div className="thumbnail-container">
                 <div className="home-thumbnail-1"></div>

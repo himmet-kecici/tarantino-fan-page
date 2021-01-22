@@ -1,16 +1,29 @@
-import React from 'react'
-import Home from './components/home'
-import Navbar from './components/navbar'
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import AsActors from './components/AsActors';
+import AsDirectors from './components/AsDirectors';
+import AsProducers from './components/AsProducers';
+import Home from './components/Home'
+import Navbar from './components/Navbar'
 import './css/style.css'
-class App extends React.Component {
+
+class App extends Component {
   render() {
 
     return (
-      <div className="App">
-        <Navbar />
-        <Home />
-      </div >
-    );
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <Route exact path='/' render={() => <Home title="Welcome To The Quentin Tarantino's World" />} />
+          <Route path='/asdirectors/' render={() => <AsDirectors />} />
+          <Route path='/asactors/' render={() => <AsActors />} />
+          <Route path='/asproducers/' render={() => <AsProducers />} />
+
+
+        </div>
+      </BrowserRouter>
+
+    )
 
   }
 
