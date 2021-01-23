@@ -4,7 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(202, 202, 240);
+  background-color: #e5e6e9;
 }
 
 code {
@@ -13,7 +13,7 @@ code {
 }
 
 .App {
-  background-color: rgb(202, 202, 240);
+  background-color: #e5e6e9;
   max-width: 992px;
   margin: auto;
 }
@@ -21,13 +21,12 @@ code {
 nav {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid blue;
-  background-color: #b22222;
+  background-color: #73436d;
   padding: 0px 10px;
 }
 
 .logo-link {
-  color: white;
+  color: #e5e6e9;
   text-decoration: none;
 }
 
@@ -39,9 +38,9 @@ nav {
 .nav-menu__link {
   display: inline-block;
   margin: 5px 10px;
-  border: 1px solid black;
-  color: blue;
-  background-color: white;
+  border: 1px solid #1f252f;
+  color: #1f252f;
+  background-color: #e5e6e9;
   border-radius: 5px;
   padding: 3px 8px;
   transition: all 0.3s ease-in-out;
@@ -49,16 +48,16 @@ nav {
 }
 
 .nav-menu__link:hover {
-  border: 1px solid black;
-  background-color: rgb(186, 185, 240);
+  border: 1px solid #e5e6e9;
+  background-color: #1f252f;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  color: red;
+  color: #b67c9a;
 }
 
 .nav-menu__link.activate {
-  background-color: rgb(186, 185, 240);
-  color: red;
+  background-color: #1f252f;
+  color: #b67c9a;
 }
 
 .main-content {
@@ -68,34 +67,43 @@ nav {
 
 .main-content h2 {
   text-align: center;
-  margin: 10px 5px;
+  margin: 10px auto;
+  color: #1f252f;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .home-image {
   width: 100%;
   height: 500px;
-  background-image: url("../photo's/home4.jpg");
+  background-image: url("../photo's/HomePage/home4.jpg");
   background-size: cover;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
 }
 
 .home-image:hover {
-  background-image: url("../photo's/home2.jpg");
+  background-image: url("../photo's/HomePage/home2.jpg");
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .thumbnail-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 10px;
   width: 100%;
 }
 
 .home-thumbnail-1,
 .home-thumbnail-2,
-.home-thumbnail-3 {
+.home-thumbnail-3,
+.home-thumbnail-4 {
   background-size: cover;
   width: 200px;
   height: 100px;
@@ -104,20 +112,63 @@ nav {
 
 .home-thumbnail-1:hover,
 .home-thumbnail-2:hover,
-.home-thumbnail-3:hover {
+.home-thumbnail-3:hover,
+.home-thumbnail-4:hover {
   transform: scale(1.05);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .home-thumbnail-1 {
-  background-image: url("../photo's/home3.jpg");
+  background-image: url("../photo's/HomePage/home3.jpg");
 }
 
 .home-thumbnail-2 {
-  background-image: url("../photo's/home1.jpg");
+  background-image: url("../photo's/HomePage/home1.jpg");
 }
 
 .home-thumbnail-3 {
-  background-image: url("../photo's/home5.jpg");
+  background-image: url("../photo's/HomePage/home5.jpg");
+}
+.home-thumbnail-4 {
+  background-image: url("../photo's/HomePage/home6.jpg");
+}
+
+.back {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #1f252f;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: #e5e6e9;
+  color: #1f252f;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.back:hover {
+  background-color: #1f252f;
+  color: #e5e6e9;
+  transition: all 0.3s ease-in-out;
+}
+
+.asdirectors-container {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.asdirectors-image {
+  width: 170px;
+  height: 160px;
+  background-size: cover;
+}
+
+.asActors-image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.movies-names {
+  font-size: 10px;
 }
