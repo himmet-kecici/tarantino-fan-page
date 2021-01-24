@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tarantino-fan-page/static/css/main.8c7b345c.chunk.css",
+    "main.js": "/tarantino-fan-page/static/js/main.788a38af.chunk.js",
+    "main.js.map": "/tarantino-fan-page/static/js/main.788a38af.chunk.js.map",
+    "runtime-main.js": "/tarantino-fan-page/static/js/runtime-main.8f376dd2.js",
+    "runtime-main.js.map": "/tarantino-fan-page/static/js/runtime-main.8f376dd2.js.map",
+    "static/js/2.aa0a61da.chunk.js": "/tarantino-fan-page/static/js/2.aa0a61da.chunk.js",
+    "static/js/2.aa0a61da.chunk.js.map": "/tarantino-fan-page/static/js/2.aa0a61da.chunk.js.map",
+    "static/js/3.9aaade4a.chunk.js": "/tarantino-fan-page/static/js/3.9aaade4a.chunk.js",
+    "static/js/3.9aaade4a.chunk.js.map": "/tarantino-fan-page/static/js/3.9aaade4a.chunk.js.map",
+    "index.html": "/tarantino-fan-page/index.html",
+    "static/css/main.8c7b345c.chunk.css.map": "/tarantino-fan-page/static/css/main.8c7b345c.chunk.css.map",
+    "static/js/2.aa0a61da.chunk.js.LICENSE.txt": "/tarantino-fan-page/static/js/2.aa0a61da.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/tarantino-fan-page/static/media/home6.3910d54e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f376dd2.js",
+    "static/js/2.aa0a61da.chunk.js",
+    "static/css/main.8c7b345c.chunk.css",
+    "static/js/main.788a38af.chunk.js"
+  ]
+}
