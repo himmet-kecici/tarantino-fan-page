@@ -7,9 +7,9 @@ const AsDirectors = (props) => {
     let asdirectorslist = AsDirectorsList.map((director) => {
         return (
             <div className='asdirectors-container'>
-
-                <div className='asdirectors-image' style={{ backgroundImage: "url(" + director.img_src + ")" }}></div>
-
+                <Link to={`/asdirectors/${director.url}`}>
+                    <div className='asdirectors-image' style={{ backgroundImage: "url(" + director.img_src + ")" }}></div>
+                </Link>
                 <h3 className='movies-names'>{director.name}</h3>
             </div >
         )

@@ -4,13 +4,13 @@ import { AsActorsList } from '../data/AsActors';
 
 
 const AsActors = (props) => {
-    let asactorslist = AsActorsList.map((director) => {
+    let asactorslist = AsActorsList.map((movie) => {
         return (
             <div className='asdirectors-container'>
-
-                <div className='asActors-image' style={{ backgroundImage: "url(" + director.img_src + ")" }}></div>
-
-                <h3 className='movies-names'>{director.name}</h3>
+                <Link to={`/asactors/${movie.url}`}>
+                    <div className='asActors-image' style={{ backgroundImage: "url(" + movie.img_src + ")" }}></div>
+                </Link>
+                <h3 className='movies-names'>{movie.name}</h3>
 
             </div >
         )
