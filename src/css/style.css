@@ -20,12 +20,9 @@ nav {
   background-color: #73436d;
   padding: 0px 10px;
 }
-
-.logo-link {
+.logo {
   color: #e5e6e9;
-  text-decoration: none;
 }
-
 .nav-menu li {
   display: inline-block;
   list-style: none;
