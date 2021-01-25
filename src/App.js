@@ -14,8 +14,8 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Route exact path='/' render={() => <Home title="Welcome To The Quentin Tarantino's World" />} />
-          <Route path='/asdirectors/' render={() => <AsDirectorsContainer title="Directed By Quentin Tarantino" />} />
-          <Route path='/asactors/' render={() => <AsActorsContainer title="Some Movies Quentin Tarantino Has Appeared" />} />
+          <Route path='/asdirectors/' render={() => <AsDirectorsContainer title="Directed By Quentin Tarantino (click the images)" />} />
+          <Route path='/asactors/' render={() => <AsActorsContainer title="Some Movies Quentin Tarantino Has Appeared (click the images)" />} />
         </div>
       </BrowserRouter>
 
