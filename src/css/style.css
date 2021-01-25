@@ -50,6 +50,10 @@ code {
   cursor: pointer;
   color: #b67c9a;
 }
+.nav-menu .activate {
+  background-color: #1f252f;
+  color: #b67c9a;
+}
 
 .main-content {
   width: 90%;
@@ -71,7 +75,7 @@ code {
 
 .home-image {
   width: 100%;
-  height: 500px;
+  height: 470px;
   background-image: url("../photo's/HomePage/home4.jpg");
   background-size: cover;
   margin-bottom: 30px;

@@ -10,14 +10,12 @@ class App extends Component {
   render() {
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navbar />
           <Route exact path='/' render={() => <Home title="Welcome To The Quentin Tarantino's World" />} />
           <Route path='/asdirectors/' render={() => <AsDirectorsContainer title="Directed By Quentin Tarantino" />} />
           <Route path='/asactors/' render={() => <AsActorsContainer title="Some Movies Quentin Tarantino Has Appeared" />} />
-
-
         </div>
       </BrowserRouter>
 
