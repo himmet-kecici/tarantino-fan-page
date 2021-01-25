@@ -14,15 +14,18 @@ code {
   margin: auto;
 }
 
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   background-color: #73436d;
   padding: 0px 10px;
 }
-.logo {
+
+.logo-link {
   color: #e5e6e9;
+  text-decoration: none;
 }
+
 .nav-menu li {
   display: inline-block;
   list-style: none;
@@ -45,11 +48,6 @@ nav {
   background-color: #1f252f;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  color: #b67c9a;
-}
-
-.nav-menu__link.activate {
-  background-color: #1f252f;
   color: #b67c9a;
 }
 
