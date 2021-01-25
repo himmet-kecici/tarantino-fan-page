@@ -17,7 +17,6 @@ const AsActors = (props) => {
     })
     return (
         <div className="main-content" >
-            <div><Link className="back" to="/">Back</Link></div>
             <h2 >{props.title}</h2>
             <div className="container">
                 {asactorslist}
